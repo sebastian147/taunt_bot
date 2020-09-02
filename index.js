@@ -122,8 +122,8 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
     let ojoined = !!oldMember.channelID
     let channel = newMember.channel
     let i = 0;
-    let textChannel = oldMember.guild.channels.cache.get('744556273395302415')
-    if(joined === true && ojoined === false && newMember.id != '744554217141960735') 
+    let textChannel = oldMember.guild.channels.cache.get(bot.user.id)
+    if(joined === true && ojoined === false && newMember.id != bot.user.id) 
     {
         if(undefined !== bot.songs[newMember.id])
         {
