@@ -1,0 +1,67 @@
+{
+    "538204839193346061": {
+        "username": "sebaster147",
+        "permission": true,
+        "song": "https://www.youtube.com/watch?v=PW4OIHDsWsM",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "35",
+        "quality": "highest",
+        "canchangesong": true
+    },
+    "185948911217672193": {
+        "username": "Jam",
+        "id": "185948911217672193",
+        "permission": true,
+        "song": "https://www.youtube.com/watch?v=Wl959QnD3lM",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "0",
+        "quality": "highest",
+        "canchangesong": true
+    },
+    "538569064704901120": {
+        "username": "montty",
+        "id": "538569064704901120",
+        "permission": false,
+        "song": "https://www.youtube.com/watch?v=ztpijNWg0xI",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "0",
+        "quality": "highest",
+        "canchangesong": true
+    },
+    "405075976557559818": {
+        "username": "Polomir",
+        "id": "405075976557559818",
+        "permission": true,
+        "song": "https://youtu.be/Wg6Z6-D2onI",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "0",
+        "quality": "highest",
+        "canchangesong": true
+    },
+    "192087259296563201": {
+        "username": "Abuelo en Sunga",
+        "id": "192087259296563201",
+        "permission": false,
+        "song": "https://youtu.be/VaymUeIMV68?t=9",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "9",
+        "quality": "highest",
+        "canchangesong": true
+    },
+    "494254804986757121": {
+        "username": "cheludistefano",
+        "id": "494254804986757121",
+        "permission": true,
+        "song": "https://www.youtube.com/watch?v=kZz_pBV6z9o&feature=youtu.be",
+        "volume": 0.5,
+        "time": 5000,
+        "starttime": "0",
+        "quality": "highest",
+        "canchangesong": true
+    }
+}
