@@ -6,8 +6,8 @@ const ytdl = require("ytdl-core");
 const fs = require("fs");
 const ffmpeg = require("fluent-ffmpeg")
 bot.songs = require("./songs.json");
-const token = 'NzQ0NTU0MjE3MTQxOTYwNzM1.Xzk6Jg.7VgvD7O6CPGf86XQlJQMQEOImAo';//constraseñá de mi bot para editar
-bot.login(token);
+//const token = '';//constraseñá de mi bot para editar
+bot.login(process.env.TOKEN);
 const PREFIX = '$';
 
 var time = 5000;
