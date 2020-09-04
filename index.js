@@ -134,13 +134,21 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
                 //ffmpeg(audio).toFormat('mp3').seekInput(150).save(audio);
                 const dispatcher = connection.play(audio, {seek: bot.songs[newMember.id].starttime});
                 console.log("Joined voice channel!");
-                dispatcher.on('speaking', (speak) => {if (dispatcher.totalStreamTime > time || speak === true)
+                dispatcher.on('speaking', (speak) => 
+                {
+                    if (dispatcher.totalStreamTime > time )
+                    {
+                        connection.disconnect();
+                        dispatcher.end;
+                    }
+                });
+                dispatcher.on('finish',() => 
                 {
                     connection.disconnect();
-                    //dispatcher.pause();
-                    //channel.leave();
-                    }});
-                })
+                });
+
+            })
+                
 
                 .catch(console.error);
         }
